@@ -8,6 +8,7 @@ db.once('open', function(){
  console.log("Connected to MongoDB successfully!");
 });
 db.on('error', function(){
+    
  console.log(err);
 });
 
